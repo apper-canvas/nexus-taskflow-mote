@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { toast } from "react-toastify";
 import taskService from "@/services/api/taskService";
 import categoryService from "@/services/api/categoryService";
-import ApperIcon from "@/components/ui/ApperIcon";
+import ApperIcon from "@/components/ApperIcon";
 import Header from "@/components/organisms/Header";
 import TaskList from "@/components/organisms/TaskList";
 import TaskModal from "@/components/organisms/TaskModal";
