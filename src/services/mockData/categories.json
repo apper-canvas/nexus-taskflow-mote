@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "name": "Work",
+    "color": "#4DABF7"
+  },
+  {
+    "Id": 2,
+    "name": "Personal",
+    "color": "#51CF66"
+  },
+  {
+    "Id": 3,
+    "name": "Urgent",
+    "color": "#FF6B6B"
+  },
+  {
+    "Id": 4,
+    "name": "Shopping",
+    "color": "#FFA94D"
+  },
+  {
+    "Id": 5,
+    "name": "Health",
+    "color": "#A78BFA"
+  },
+  {
+    "Id": 6,
+    "name": "Finance",
+    "color": "#4ECDC4"
+  },
+  {
+    "Id": 7,
+    "name": "Learning",
+    "color": "#FFE66D"
+  }
+]

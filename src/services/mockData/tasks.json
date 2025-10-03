@@ -1,0 +1,90 @@
+[
+  {
+    "Id": 1,
+    "title": "Complete project proposal",
+    "description": "Finish the Q4 project proposal for the client presentation including budget breakdown and timeline",
+    "dueDate": "2024-01-15",
+    "priority": "high",
+    "status": "in-progress",
+    "category": "Work",
+    "createdAt": "2024-01-10T09:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 2,
+    "title": "Schedule dentist appointment",
+    "description": "Call the dental office to schedule 6-month cleaning checkup",
+    "dueDate": "2024-01-12",
+    "priority": "medium",
+    "status": "pending",
+    "category": "Health",
+    "createdAt": "2024-01-10T10:30:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 3,
+    "title": "Buy groceries",
+    "description": "Weekly grocery shopping - milk, eggs, bread, vegetables, chicken",
+    "dueDate": "2024-01-11",
+    "priority": "medium",
+    "status": "pending",
+    "category": "Shopping",
+    "createdAt": "2024-01-10T11:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 4,
+    "title": "Review team feedback",
+    "description": "Go through the team's feedback on the new feature implementation and prepare response",
+    "dueDate": "2024-01-13",
+    "priority": "high",
+    "status": "pending",
+    "category": "Work",
+    "createdAt": "2024-01-10T14:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 5,
+    "title": "Read chapter 5",
+    "description": "Continue reading 'Atomic Habits' - chapter 5 about habit stacking",
+    "dueDate": "2024-01-14",
+    "priority": "low",
+    "status": "pending",
+    "category": "Learning",
+    "createdAt": "2024-01-10T16:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 6,
+    "title": "Pay credit card bill",
+    "description": "Monthly credit card payment is due - check balance and make payment",
+    "dueDate": "2024-01-16",
+    "priority": "high",
+    "status": "pending",
+    "category": "Finance",
+    "createdAt": "2024-01-10T17:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 7,
+    "title": "Plan weekend trip",
+    "description": "Research and book hotel for weekend getaway to the mountains",
+    "dueDate": "2024-01-18",
+    "priority": "low",
+    "status": "pending",
+    "category": "Personal",
+    "createdAt": "2024-01-10T18:00:00Z",
+    "completedAt": null
+  },
+  {
+    "Id": 8,
+    "title": "Submit expense report",
+    "description": "Compile all receipts from business trip and submit expense report",
+    "dueDate": "2024-01-12",
+    "priority": "high",
+    "status": "pending",
+    "category": "Work",
+    "createdAt": "2024-01-10T19:00:00Z",
+    "completedAt": null
+  }
+]
