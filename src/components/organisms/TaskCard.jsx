@@ -1,19 +1,22 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import { motion } from "framer-motion";
 import { format } from "date-fns";
 import ApperIcon from "@/components/ApperIcon";
-import Button from "@/components/atoms/Button";
-import Badge from "@/components/atoms/Badge";
-import PriorityDot from "@/components/molecules/PriorityDot";
 import CategoryTag from "@/components/molecules/CategoryTag";
+import PriorityDot from "@/components/molecules/PriorityDot";
+import Badge from "@/components/atoms/Badge";
+import Button from "@/components/atoms/Button";
 import Checkbox from "@/components/atoms/Checkbox";
 
-const TaskCard = ({ task, onEdit, onDelete, onToggleComplete, categoryColor }) => {
-  const isCompleted = task.status === "completed";
-  const isOverdue = new Date(task.dueDate) < new Date() && !isCompleted;
+const TaskCard = React.forwardRef(({ task, onEdit, onDelete, onToggleComplete, categoryColor }, ref) => {
+  const isCompleted = task?.completed || false;
+  const dueDate = task.dueDate ? new Date(task.dueDate) : null;
+  const isOverdue = dueDate && dueDate < new Date() && !isCompleted;
+  const formattedDate = dueDate ? format(dueDate, "MMM dd, yyyy") : null;
 
   return (
     <motion.div
+      ref={ref}
       layout
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: isCompleted ? 0.7 : 1, y: 0, scale: isCompleted ? 0.98 : 1 }}
@@ -90,8 +93,10 @@ const TaskCard = ({ task, onEdit, onDelete, onToggleComplete, categoryColor }) =
           </div>
         </div>
       </div>
-    </motion.div>
+</motion.div>
   );
-};
+});
+
+TaskCard.displayName = 'TaskCard';
 
 export default TaskCard;
